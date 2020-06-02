@@ -38,11 +38,11 @@ const Toast = ( props ) => {
             opacity:0;
           }
           ${ props.transitionPercentage }% {
-            transform: translateY(-40px);
+            transform: translateY(40px);
             opacity:1;
           }
           ${ (100-props.transitionPercentage)}% {
-            transform: translateY(-40px);
+            transform: translateY(40px);
             opacity:1;
           }
           100% {
@@ -116,7 +116,7 @@ export const ToastContainer = ( props ) => {
         .toast-container {
           position: fixed;
           width: 100%;
-          top: 20px;
+          top: -20px;
           left: 0px;
         }
       `}</style>
