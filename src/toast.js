@@ -116,7 +116,7 @@ export const ToastContainer = ( props ) => {
         .toast-container {
           position: fixed;
           width: 100%;
-          bottom: 20px;
+          top: 20px;
           left: 0px;
         }
       `}</style>
