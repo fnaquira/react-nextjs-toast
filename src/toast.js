@@ -117,7 +117,8 @@ export const ToastContainer = ( props ) => {
           position: fixed;
           width: 100%;
           top: -20px;
-          left: 0px;
+		  left: 0px;
+		  z-index: 999999;
         }
       `}</style>
     </div>
